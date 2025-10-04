@@ -194,7 +194,7 @@ display: flex;
     gap-botom: 32px;
 }
 .team {
-    padding: 32px 16px;
+    padding: 32px 0 32px
     border: 1px solid #e7e9fc;
     border-top: none;
     margin-bottom: 8px;
@@ -213,6 +213,7 @@ text-transform: capitalize;
 text-align: center;
 }
 .page-team-name {
+margin-bottom: 8px;
 font-weight: 500;
 line-height: 24px;
 font-size: 20px;
@@ -231,14 +232,15 @@ text-align: center;
 
 .page-team {
     background-color: #f4f4fd;
-
+  padding-top: 120px;
+    padding-bottom: 120px;
 }
 .page-item-fon {
     display: block;
     background-color: #fff;
 }
 .page-portfolio {
-    padding-bottom: 12opx;
+    padding-top: 120px;
     padding-bottom: 120px;
 }
 .portfolio-list {
