@@ -216,7 +216,7 @@ display: flex;
 }
 .page-team-text {
 padding-top: 120px;
-padding-bottom: 72px;
+margin-bottom: 72px;
 font-weight: 700;
 line-height: 1.11;
 font-size: 36px;
