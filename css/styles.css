@@ -119,8 +119,8 @@ letter-spacing: 0.02em;
 
 .hero-text {
     max-width: 496px;
-    margin-bottom: 48px;
     margin: 0 auto;
+    margin-bottom: 48px;
 font-weight: 700;
     line-height: 1.07;
     font-size: 56px;
@@ -138,7 +138,7 @@ color: #ffffff;
     padding: 16px 32px;
     background-color: #4d5ae5;
      font-weight: 500;
-    line-height: 24px;
+    line-height: 1,5;
     font-size: 16px;
     letter-spacing: 0.04em;
 color: #fff;
@@ -198,7 +198,9 @@ letter-spacing: 0.02em;
 color: #434455
 
 }
-
+.page-team {
+    padding-top: 120px;
+}
 .page-item-fon {
     width: calc((100% - 24px * 3)/4);
      border-radius: 0px 0px 4px 4px;
@@ -215,8 +217,8 @@ display: flex;
     border-top: none ;
 }
 .page-team-text {
-padding-top: 120px;
 margin-bottom: 72px;
+
 font-weight: 700;
 line-height: 1.11;
 font-size: 36px;
@@ -228,7 +230,7 @@ text-align: center;
 .page-team-name {
 margin-bottom: 8px;
 font-weight: 500;
-line-height: 24px;
+line-height: 1.2;
 font-size: 20px;
 letter-spacing: 0.02em;
 color: #2e2f42;
@@ -236,7 +238,7 @@ text-align: center;
 }
 .page-team-info {
 font-weight: 400;
-line-height: 24px;
+line-height: 1.5;
 font-size: 16px;
 letter-spacing: 0.02em;
 color: #434455;
@@ -262,9 +264,8 @@ text-align: center;
     gap: 24px;
     row-gap: 48px;
 }
-.portfolio-team {
-    width: calc((100% - 24px * 2)/3);
-}
+ 
+
 .portfolio-info {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
